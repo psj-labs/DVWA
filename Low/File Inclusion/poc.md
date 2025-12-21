@@ -30,8 +30,7 @@
 ```text
 http://192.168.64.14/DVWA/vulnerabilities/fi/?page=file2.php
 ```
-- 여기서 `page=file2.php`는  
-  **서버에게 `file2.php` 파일을 포함해서 실행하라**는 의미입니다.
+- 여기서 `page=file2.php`는 서버 측 코드에서 page 파라미터 값을 파일 경로로 그대로 사용해 `include()`를 수행하고 있음을 의미합니다.
 
 ---
 
