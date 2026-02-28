@@ -9,11 +9,11 @@
 - 다음은 DVWA의 Weak Session IDs 실습 화면입니다.
 - `Generate` 버튼을 클릭하면 새로운 세션 값이 발급됩니다.
 
-![01](Weak%20Session%20IDs/imgs/01.png)
+![01](/Low/Weak%20Session%20IDs/imgs/01.png)
 
 - 발급된 세션 값을 확인하면 다음과 같이 쿠키가 설정됩니다.
 
-![03](Weak%20Session%20IDs/imgs/03.png)
+![03](/Low/Weak%20Session%20IDs/imgs/03.png)
 
 - 14번째 줄에서 다음과 같은 값을 확인할 수 있습니다.
 
@@ -23,7 +23,7 @@ dvwaSession=2;
 
 - 다시 `Generate`를 클릭하면 다음과 같이 세션 값이 증가합니다.
 
-![04](Weak%20Session%20IDs/imgs/04.png)
+![04](/Low/Weak%20Session%20IDs/imgs/04.png)
 
 - 기존 세션 값 2에서 1이 증가한 3이 발급되는 것을 확인할 수 있습니다.
 
@@ -38,7 +38,7 @@ dvwaSession=2;
 
 - 예를 들어 세션 값을 다음과 같이 수정합니다.
 
-![05](Weak%20Session%20IDs/imgs/05.png)
+![05](/Low/Weak%20Session%20IDs/imgs/05.png)
 
 - 쿠키 값을 `1`로 변경하면,
 - 세션 값 1에 해당하는 사용자 권한이 로드될 수 있습니다.
